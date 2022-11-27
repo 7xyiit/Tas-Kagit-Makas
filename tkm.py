@@ -4,7 +4,7 @@ import time
 kullanici_skor, bilgisayar_skor = 0,0
 
 while True:
-    girilen_hareket = input("Lütfen bir hareket girin : " + "Taş (1), Kağıt (2), Makas (3)" + "\n" + "Oyunu bitirmek için 'q' tuşuna yazıp enterleyin." + "\n")
+    girilen_hareket = input("Lütfen bir hareket girin : " + "Taş (1), Kağıt (2), Makas (3)" + "\n" + "Oyunu bitirmek için 'q' tuşuna basın ve enterleyin." + "\n")
     rastgele_hareket = random.choice(['1', '2', '3'])
 
     if girilen_hareket == "1":
